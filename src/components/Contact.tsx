@@ -6,7 +6,6 @@ import {
   MapPinIcon,
   ClockIcon,
 } from '@heroicons/react/24/outline';
-import { FaWhatsapp } from 'react-icons/fa';
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -94,14 +93,6 @@ export default function Contact() {
       title: 'Business Hours',
       content: '24/7 Open',
     }
-  ];
-
-  const socialLinks = [
-    {
-      icon: FaWhatsapp,
-      href: 'https://wa.me/919959226616',
-      name: 'WhatsApp'
-    },
   ];
 
   return (
