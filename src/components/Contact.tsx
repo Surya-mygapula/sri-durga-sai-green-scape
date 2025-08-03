@@ -45,7 +45,7 @@ export default function Contact() {
       const encodedMessage = encodeURIComponent(whatsappMessage);
       
       // Replace with your WhatsApp number (include country code)
-      const whatsappNumber = '919959226616'; // Indian number with country code
+      const whatsappNumber = '919390090922'; // Indian number with country code
       
       // Create WhatsApp URL
       const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
